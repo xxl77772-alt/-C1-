@@ -1,0 +1,185 @@
+import { PhraseItem } from '../types';
+
+export const PHRASEBOOK_DATA: PhraseItem[] = [
+  // Greetings & Courtesies
+  {
+    id: 'ph-1',
+    category: 'greetings',
+    phraseRu: 'Здравствуйте!',
+    stressRu: 'Здра́вствуйте!',
+    transliteration: 'Zdrávstvuyte!',
+    translationEn: 'Hello! (formal / polite)',
+    contextNote: 'Use with strangers, elders, officials',
+  },
+  {
+    id: 'ph-2',
+    category: 'greetings',
+    phraseRu: 'Привет!',
+    stressRu: 'Приве́т!',
+    transliteration: 'Privét!',
+    translationEn: 'Hi! (informal)',
+    contextNote: 'Use with friends, peers, children',
+  },
+  {
+    id: 'ph-3',
+    category: 'greetings',
+    phraseRu: 'Доброе утро!',
+    stressRu: 'До́брое у́тро!',
+    transliteration: 'Dóbroye útro!',
+    translationEn: 'Good morning!',
+  },
+  {
+    id: 'ph-4',
+    category: 'greetings',
+    phraseRu: 'Добрый день!',
+    stressRu: 'До́брый день!',
+    transliteration: 'Dóbry den’!',
+    translationEn: 'Good afternoon / day!',
+  },
+  {
+    id: 'ph-5',
+    category: 'greetings',
+    phraseRu: 'Добрый вечер!',
+    stressRu: 'До́брый ве́чер!',
+    transliteration: 'Dóbry vécher!',
+    translationEn: 'Good evening!',
+  },
+  {
+    id: 'ph-6',
+    category: 'greetings',
+    phraseRu: 'Спокойной ночи!',
+    stressRu: 'Споко́йной но́чи!',
+    transliteration: 'Spakóynoy nóchi!',
+    translationEn: 'Good night!',
+  },
+
+  // Courtesy
+  {
+    id: 'ph-7',
+    category: 'courtesy',
+    phraseRu: 'Большое спасибо!',
+    stressRu: 'Большо́е спаси́бо!',
+    transliteration: 'Bal’shóye spasíba!',
+    translationEn: 'Thank you very much!',
+  },
+  {
+    id: 'ph-8',
+    category: 'courtesy',
+    phraseRu: 'Пожалуйста!',
+    stressRu: 'Пожа́луйста!',
+    transliteration: 'Pozháluysta!',
+    translationEn: 'You are welcome / Please!',
+  },
+  {
+    id: 'ph-9',
+    category: 'courtesy',
+    phraseRu: 'Извините, пожалуйста.',
+    stressRu: 'Извини́те, пожа́луйста.',
+    transliteration: 'Izviníte, pozháluysta.',
+    translationEn: 'Excuse me, please / Pardon me.',
+  },
+  {
+    id: 'ph-10',
+    category: 'courtesy',
+    phraseRu: 'Ничего страшного.',
+    stressRu: 'Ничего́ стра́шного.',
+    transliteration: 'Nichevó stráshnava.',
+    translationEn: 'No problem / It’s nothing.',
+  },
+
+  // Cafe & Restaurant
+  {
+    id: 'ph-11',
+    category: 'cafe',
+    phraseRu: 'Можно меню, пожалуйста?',
+    stressRu: 'Мо́жно меню́, пожа́луйста?',
+    transliteration: 'Mózhno menyú, pozháluysta?',
+    translationEn: 'May I have the menu, please?',
+  },
+  {
+    id: 'ph-12',
+    category: 'cafe',
+    phraseRu: 'Мне, пожалуйста, чашку кофе.',
+    stressRu: 'Мне, пожа́луйста, ча́шку ко́фе.',
+    transliteration: 'Mne, pozháluysta, cháshku kófe.',
+    translationEn: 'For me, a cup of coffee please.',
+  },
+  {
+    id: 'ph-13',
+    category: 'cafe',
+    phraseRu: 'Счёт, пожалуйста.',
+    stressRu: 'Счёт, пожа́луйста.',
+    transliteration: 'Shchyot, pozháluysta.',
+    translationEn: 'The bill, please.',
+  },
+  {
+    id: 'ph-14',
+    category: 'cafe',
+    phraseRu: 'Можно оплатить картой?',
+    stressRu: 'Мо́жно оплати́ть ка́ртой?',
+    transliteration: 'Mózhno oplatít’ kártoy?',
+    translationEn: 'Can I pay by card?',
+  },
+
+  // Directions
+  {
+    id: 'ph-15',
+    category: 'directions',
+    phraseRu: 'Где находится станция метро?',
+    stressRu: 'Где нахо́дится ста́нция метро́?',
+    transliteration: 'Gde nakhóditsa stántsiya metró?',
+    translationEn: 'Where is the metro station located?',
+  },
+  {
+    id: 'ph-16',
+    category: 'directions',
+    phraseRu: 'Поверните направо, затем налево.',
+    stressRu: 'Поверни́те напра́во, зате́м нале́во.',
+    transliteration: 'Pavernite naprávo, zatém nalévo.',
+    translationEn: 'Turn right, then left.',
+  },
+  {
+    id: 'ph-17',
+    category: 'directions',
+    phraseRu: 'Это далеко отсюда?',
+    stressRu: 'Э́то далеко́ отсю́да?',
+    transliteration: 'Éto dalekó otsyúda?',
+    translationEn: 'Is it far from here?',
+  },
+
+  // Shopping
+  {
+    id: 'ph-18',
+    category: 'shopping',
+    phraseRu: 'Сколько это стоит?',
+    stressRu: 'Ско́лько э́то сто́ит?',
+    transliteration: 'Skól’ko éto stóit?',
+    translationEn: 'How much does this cost?',
+  },
+  {
+    id: 'ph-19',
+    category: 'shopping',
+    phraseRu: 'У вас есть размер побольше?',
+    stressRu: 'У вас есть разме́р побо́льше?',
+    transliteration: 'U vas yest’ razmér paból’she?',
+    translationEn: 'Do you have a bigger size?',
+  },
+
+  // Emergency
+  {
+    id: 'ph-20',
+    category: 'emergency',
+    phraseRu: 'Помогите мне, пожалуйста!',
+    stressRu: 'Помоги́те мне, пожа́луйста!',
+    transliteration: 'Pamagíte mne, pozháluysta!',
+    translationEn: 'Please help me!',
+  },
+  {
+    id: 'ph-21',
+    category: 'emergency',
+    phraseRu: 'Где аптека?',
+    stressRu: 'Где апте́ка?',
+    transliteration: 'Gde aptéka?',
+    translationEn: 'Where is the pharmacy?',
+  },
+];
